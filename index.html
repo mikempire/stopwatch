@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="timer">
+            <div class="timer__block">
+                <div class="time hours">00</div>
+                <div class="title">hours</div>
+            </div>
+            :
+            <div class="timer__block">
+                <div class="time minutes">00</div>
+                <div class="title">minutes</div>
+            </div>
+            :
+            <div class="timer__block">
+                <div class="time seconds">00</div>
+                <div class="title">seconds</div>
+            </div>
+            :
+            <div class="timer__block">
+                <div class="time mseconds">00</div>
+                <div class="title">mseconds</div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn start">Start</button>
+            <button class="btn pause">Pause</button>
+            <button class="btn stop">Stop</button>
+            <button class="btn new disabled" disabled>New</button>
+        </div>
+    </div>
+    <div class="results">
+        <h3>results</h3>
+        <ul class="results-list">
+        </ul>
+    </div>
+</body>
+</html>
